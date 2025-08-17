@@ -5,11 +5,11 @@ import './App.css';
 import MainLayout from './components/MainLayout';
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [currentPage, setCurrentPage] = useState('home');
 
   return (
     <>
-      <MainLayout />
+      <MainLayout currentPage={currentPage} setCurrentPage={setCurrentPage} />
     </>
   );
 }
