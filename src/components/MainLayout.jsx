@@ -51,6 +51,7 @@ const MainLayout = ({ currentPage, setCurrentPage }) => {
             <h1 className="text-3xl font-bold text-gray-900">
               Some heading text go here
             </h1>
+            
             <p className="mt-4 max-w-2xl mx-auto text-gray-600">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -61,6 +62,9 @@ const MainLayout = ({ currentPage, setCurrentPage }) => {
 
       {/* Content Section - Centered */}
       <section className="bg-white p-8 flex flex-col items-center justify-center text-center">
+        <div className="flex-shrink-0">
+              <img className="h-12 w-auto" src="#" alt="Logo" />
+            </div>
         <h2 className="text-2xl font-semibold">Some heading text go here</h2>
         <p className="mt-4 max-w-2xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
