@@ -1,21 +1,24 @@
 import React from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import TeamSection from './components/TeamSection';
-import CTASection from './components/CTASection';
+import AboutSection from './components/ProjectSection';
+import SkillsSection from './components/SkillsSection';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
+import "./app.css";
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-black">
       <Header />
       <main>
         <HeroSection />
         <AboutSection />
-        <TeamSection />
-        <CTASection />
+        <SkillsSection />
+        <ContactForm  />
+    
       </main>
+
       <Footer />
     </div>
   );
