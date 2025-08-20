@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../assets/image.png'; // Importing the image
 
 const HeroSection = () => {
   return (
@@ -9,14 +10,15 @@ const HeroSection = () => {
             <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-8 animate-bounce gradient-text">
               About Me
             </h1>
+            
           </div>
           <div className="flex flex-col md:flex-row gap-12 items-center">
-            <div className="space-y-6 order-1 md:order-2 w-full">
+            
+            <div className="space-y-6 order-2 md:order-2 w-full">
               <p className="text-xl text-gray-700 leading-relaxed hover:text-blue-600 transition-all duration-500 transform hover:scale-105 text-right">
-                I specialize in creating 
-                responsive and user-friendly applications using modern frameworks like React, vue, Angular.
-                <br></br> My passion lies in solving complex problems through elegant code and innovative 
-                design solutions.<br></br> I believe in continuous learning and staying up-to-date with 
+                I specialize in creating responsive and user-friendly applications using modern frameworks<br></br> like React, vue, Angular.
+                 My passion lies in solving complex problems through <br></br>elegant code and innovative 
+                design solutions. I believe in continuous learning<br></br> and staying up-to-date with 
                 the latest industry trends and technologies.
               </p>
               
